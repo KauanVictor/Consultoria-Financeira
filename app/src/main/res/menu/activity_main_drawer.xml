@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+      <!--  <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/controle"
+            android:title="@string/menu_home" />
+       !-->
+       <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/juros"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/videos"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/sobre_nos"
+            android:icon="@drawable/sobre"
+            android:title="@string/sobre_nos" />
+    </group>
+    <item android:title="Livros">
+        <menu>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/curso"
+            android:icon="@drawable/curso"
+            android:title="@string/curso_gratuito" />
+        <item
+            android:id="@+id/livro"
+            android:icon="@drawable/livro"
+            android:title="@string/meu_livro_digital" />
+
+    </group>
+        </menu>
+    </item>
+</menu>
+

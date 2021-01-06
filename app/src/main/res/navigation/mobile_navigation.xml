@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_gallery">
+
+   <!-- <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.consultoriaruiz.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+!-->
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.consultoriaruiz.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.consultoriaruiz.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/sobre_nos"
+        android:name="com.example.consultoriaruiz.ui.main.FragmentSobrenosFragment"
+        android:label="@string/sobre_nos"
+        tools:layout="@layout/fragment_sobrenos_activity" />
+    <fragment
+        android:id="@+id/livro"
+        android:name="com.example.consultoriaruiz.ui.main.MainLivroFragment"
+        android:label="@string/meu_livro_digital"
+        tools:layout="@layout/activity_livro" />
+    <fragment
+        android:id="@+id/curso"
+        android:name="com.example.consultoriaruiz.ui.main.FragmentCursoFragment"
+        android:label="@string/curso_gratuito"
+        tools:layout="@layout/fragment_curso_activity" />
+</navigation>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="-vY-uGbKuK8"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="6sp"
+        android:layout_marginRight="5sp"
+        app:autoPlay="false"
+        app:showFullScreenButton="false" />
+
+    <Space
+        android:layout_width="5sp"
+        android:layout_height="5sp"/>
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="A47_K7f-htM"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        app:autoPlay="false"
+        app:showFullScreenButton="false" />
+
+
+    <Space
+        android:layout_width="5sp"
+        android:layout_height="5sp"/>
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="g0bVVMmd594"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        app:autoPlay="false"
+        app:showFullScreenButton="false" />
+
+    <Space
+        android:layout_width="5sp"
+        android:layout_height="5sp"/>
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="RM4o8Ex0CBE"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        app:autoPlay="false"
+        app:showFullScreenButton="false" />
+
+    <Space
+        android:layout_width="5sp"
+        android:layout_height="5sp"/>
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="SccYX-k1I6M"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        app:autoPlay="false"
+        app:showFullScreenButton="false" />
+
+    <Space
+        android:layout_width="5sp"
+        android:layout_height="5sp"/>
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="zGxXam8nBtc"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        app:autoPlay="false"
+        app:showFullScreenButton="false" />
+
+
+    <Space
+        android:layout_width="5sp"
+        android:layout_height="5sp"/>
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="AxKrDzvp60w"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        app:autoPlay="false"
+        app:showFullScreenButton="false" />
+
+    <Space
+        android:layout_width="5sp"
+        android:layout_height="5sp"/>
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="3xrU0Ey0SRA"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        app:autoPlay="false"
+        app:showFullScreenButton="false" />
+
+
+    <Space
+        android:layout_width="5sp"
+        android:layout_height="5sp"/>
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="Xu1MpJKAig8"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        app:autoPlay="false"
+        app:showFullScreenButton="false" />
+
+
+    <Space
+        android:layout_width="5sp"
+        android:layout_height="5sp"/>
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="9Pcj7FjnNeM"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        app:autoPlay="false"
+        app:showFullScreenButton="false" />
+
+        <Space
+            android:layout_width="7sp"
+            android:layout_height="7sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#0096DA"
+            android:textSize="20sp"
+            android:layout_marginBottom="15sp"
+            android:onClick="Canal"
+            android:gravity="center_horizontal"
+            android:text="Ver mais...">
+
+        </TextView>
+
+
+
+</LinearLayout>
+</ScrollView>

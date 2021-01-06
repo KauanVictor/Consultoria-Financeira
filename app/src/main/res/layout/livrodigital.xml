@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_livro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main.MainLivroFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450sp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:gravity="center_horizontal"
+            android:text="Manual do Investidor\n DE PARDAL À ÁGUIA!"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="normal" />
+    <Space
+        android:layout_width="5sp"
+        android:layout_height="15sp"/>
+    <View
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="5sp"
+        android:layout_marginLeft="5sp"
+        android:layout_width="350sp"
+        android:layout_height="3sp"
+        android:background="@color/colorAccent"/>
+    <Space
+        android:layout_width="50sp"
+        android:layout_height="100sp"/>
+
+   <VideoView
+       android:layout_width="match_parent"
+       android:layout_marginLeft="5dp"
+       android:layout_marginRight="5dp"
+       android:layout_height="220sp"
+       android:id="@+id/videoView"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0sp"
+        android:layout_height="50sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="38sp"
+            android:background="@drawable/comprar"
+            android:onClick="ComprarLivro"
+            android:text="Comprar"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Consultoria Ruiz</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Controle Financeiro</string>
+    <string name="menu_gallery">Juros Compostos</string>
+    <string name="menu_slideshow">Vídeos</string>
+    <string name="meu_livro_digital">Meu Livro Digital</string>
+    <string name="curso_gratuito">Curso Gratuito</string>
+    <string name="sobre_nos">Sobre Nós</string>
+    <string name="CEO">• Co-Fundador da Consultoria Ruiz, formado em Gestão da Qualidade, a 13 anos organizando e planejando Finanças pessoais;
+        \n • Hoje alcança mais de 1 MILHÃO de pessoas por mês através das Redes Sociais ajudando e levando educação financeira de forma simples e direta;
+        \n • Ao longo da vida adquiriu uma paixão em finanças e investimentos e a 2 anos de levar educação financeira para o Brasil e libertar o brasileiro comum da ignorância, como eu sempre falo:\n <b>VOCÊ NÃO PRECISA DO INSS PARA SE APOSENTAR!</b>"
+       </string>
+    <string name="Inicial">Informe o valor inicial.</string>
+    <string name="Mensal">Informe o valor mensal.</string>
+    <string name="Juros">Informe a taxa de juros anual.</string>
+    <string name="Meses">Informe o período em meses.</string>
+    <string name="Nome">Informe a descrição.</string>
+    <string name="Valor">Informe o valor.</string>
+
+
+
+</resources>
